@@ -48,7 +48,7 @@ export default function Button01(props: PropsButtons01) {
         backgroundColor={props.backgroundColor}
       >
         <Text color={props.color} fontSize={props.fontSize}>
-          {props.text}
+        {props.text}
         </Text>
       </CommonButton01>
     </>
