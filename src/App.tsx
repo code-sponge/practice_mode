@@ -1,9 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return <div>Studting Project</div>;
+  return <div>Studting Project login join</div>;
 }
 
 export default App;
