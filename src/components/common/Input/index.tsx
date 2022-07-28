@@ -14,12 +14,12 @@ interface PropsInput01 {
 }
 
 const CommonInput01 = styled.input<PropsInput01>`
-    width: ${(props) => props.width};
-    height: ${(props) => props.height};
-    color: ${(props) => props.color};
-    font-size: ${(props) => props.fontSize};
-    padding: ${(props) => props.padding};
-    margin: ${(props) => props.margin};
+    width: ${(props: PropsInput01) => props.width};
+    height: ${(props: PropsInput01) => props.height};
+    color: ${(props: PropsInput01) => props.color};
+    font-size: ${(props: PropsInput01) => props.fontSize};
+    padding: ${(props: PropsInput01) => props.padding};
+    margin: ${(props: PropsInput01) => props.margin};
 `
 
 export default function Input01 (props: PropsInput01) {

@@ -20,7 +20,7 @@ const CommonButton01 = styled.button`
   width: ${(props: PropsButtons01) => props.width};
   height: ${(props: PropsButtons01) => props.height};
   border-radius: ${(props: PropsButtons01) => props.borderRadius};
-  background-color: ${props => props.backgroundColor}
+  background-color: ${(props:PropsButtons01) => props.backgroundColor};
   border: none;
   :hover {
     cursor: pointer;
